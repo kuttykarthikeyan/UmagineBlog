@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthikeyan's Blog</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post {
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        .blog-post img {
+            width: 200px; 
+            height: 200px;
+            border-radius: 50%; 
+            margin-right: 20px; 
+            flex-shrink: 0; 
+            position: absolute;
+        }
+
+        .blog-post .content {
+            margin-left: 240px; 
+            margin-right: 20px; 
+                }
+
+        .blog-post h2 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px; 
+            margin-top: 0; 
+        }
+
+        .blog-post p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #666;
+            margin-top: 0; 
+        }
+
+        .blog-post ul {
+            margin-top: 0;
+            padding-left: 20px;
+            margin-bottom: 0; 
+        }
+
+        .blog-post:nth-child(even) img {
+            right: 0;
+            left: auto; 
+        }
+
+        .blog-post:nth-child(even) .content {
+            margin-left: 20px; 
+            margin-right: 240px; 
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        #comment-form {
+            margin-top: 20px;
+        }
+
+        #comment-form input,
+        #comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #comment-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #comment-form button:hover {
+            background-color: #555;
+        }
+
+             .error-message {
+            color: red;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Karthikeyan's Blog on Chennai Conference</h1>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+        </nav>
+</header>
+
+<div class="container">
+    <div class="blog-post">
+        <img src="conference.jpg" alt="Chennai AI Umagine Conference 2024">
+        <div class="content">
+            <h2>Exploring New Frontiers in AI</h2>
+            <p>I had the incredible opportunity to attend the Chennai AI Umagine Conference 2024 on the 23rd and 24th of February. The conference was a melting pot of ideas, innovations, and insights into the rapidly evolving field of artificial intelligence.</p>
+            <p>This year's conference featured keynote speeches from leading experts in AI, including Dr. Priya Ranjan, who spoke about the ethical implications of AI advancements, and Dr. Rajesh Kumar, who discussed the future of AI in healthcare.</p>
+        </div>
+    </div>
+
+    <div class="blog-post">
+        <div class="content">
+            <h2>Acceleration with AI</h2>
+            <p>I got insights into the concept of Siddha chatbot, growth trends in AI, and learned about the AI pyramid.</p>
+            <ul>
+                <li>Different perspective of Siddha using AI.</li>
+                <li>Statistical growth of AI to about 1.3 trillion over a decade.</li>
+                <li>AI pyramid.</li>
+            </ul>
+            <p>During the breakout sessions, I had the opportunity to delve deeper into topics such as machine learning algorithms and natural language processing techniques. These sessions provided valuable insights that I can apply to my own projects.</p>
+        </div>
+        <img src="acceleration.jpg" alt="Acceleration with AI">
+    </div>
+
+    <div class="blog-post">
+        <img src="leverage.jpg" alt="Leveraging AI for SME world">
+        <div class="content">
+            <h2>Leveraging AI for SME world</h2>
+            <p>I got to know about the importance of workflow engine in AI and learned different approaches for extracting data from documents without OCR by using LLM and LVM. Also, explored various applications of AI in banking and gained insights into some AI-based apps.</p>
+            <ul>
+                <li>Importance of workflow engine in AI.</li>
+                <li>Different approaches for extracting data from documents without OCR by using LLM and LVM.</li>
+                <li>Various applications of AI in banking and insights into some AI-based apps.</li>
+            </ul>
+            <p>One of the highlights of the conference was a panel discussion on the role of AI in empowering small and medium-sized enterprises (SMEs). The panelists shared their experiences and success stories, inspiring me to explore new opportunities for implementing AI solutions in my own business ventures.</p>
+        </div>
+    </div>
+
+    <div class="blog-post">
+        <div class="content">
+            <h2>Unleashing the potential of AI in Healthcare</h2>
+            <p>Insights into storing medical data securely and different data storing formats. Also, got information about structured medical data called MIMIC and learned about breast cancer prediction using thermal sensors.</p>
+            <ul>
+                <li>Storing medical data securely and different data storing formats.</li>
+                <li>Structured medical data called MIMIC.</li>
+                <li>Breast cancer prediction using thermal sensors.</li>
+            </ul>
+            <p>The session on AI in healthcare was particularly enlightening, as it highlighted the transformative impact of AI technologies on patient care and medical research. I gained a deeper understanding of how AI can be used to analyze medical imaging data, identify disease patterns, and personalize treatment plans.</p>
+        </div>
+        <img src="healthcare.jpg" alt="Unleashing the potential of AI in Healthcare">
+    </div>
+
+    <div class="blog-post">
+        <img src="future.jpg" alt="6G and AI - A glimpse into the future of industry and society">
+        <div class="content">
+            <h2>6G and AI - A glimpse into the future of industry and society</h2>
+            <p>Got to know about fiber sensors "textile tactile" and new tech for body motion prediction using these sensors. Also, learned about powering remote sensors using radio waves and audio, JCAS (Joint Communication and Sensing), and how to reduce latency in sensors using data stations.</p>
+            <ul>
+                <li>Fiber sensors "textile tactile" and new tech for body motion prediction using these sensors.</li>
+                <li>Powering remote sensors using radio waves and audio.</li>
+                <li>JCAS (Joint Communication and Sensing) and how to reduce latency in sensors using data stations.</li>
+            </ul>
+            <p>The session on 6G and AI provided a fascinating glimpse into the future of technology and its potential impact on industry and society. I learned about cutting-edge developments in wireless communication, sensor technology, and artificial intelligence, which are poised to revolutionize various sectors, from manufacturing to transportation.</p>
+        </div>
+    </div>
+
+    <div class="blog-post">
+        <div class="content">
+            <h2>Role of Data Centers for the growth of emerging sectors</h2>
+            <p>Learned about data centers and insights into data growth from past decades. Also, learned about the growth of data centers in the future and how AI is increasing data nowadays.</p>
+            <ul>
+                <li>Data centers and insights into data growth from past decades.</li>
+                <li>Growth of data centers in the future and how AI is increasing data nowadays.</li>
+            </ul>
+            <p>The discussion on the role of data centers in driving the growth of emerging sectors shed light on the importance of robust infrastructure for managing and processing large volumes of data. As AI continues to evolve, the demand for data centers equipped with advanced computing capabilities is expected to rise, paving the way for innovation and economic development.</p>
+        </div>
+        <img src="datacenters.jpg" alt="Role of Data Centers for the growth of emerging sectors">
+    </div>
+
+    <div class="blog-post">
+        <div class="content">
+            <h2>Notable stalls</h2>
+            <ul>
+                <li>Got to know about a company which provides software for gathering information from patient info docs.</li>
+                <li>Umiphore, a company providing a service for customer review automation with AI for audio emotion prediction.</li>
+            </ul>
+            <p>The exhibition area featured several notable stalls showcasing innovative AI solutions and technologies. I had the opportunity to interact with representatives from various companies and learn about their products and services. One stall that caught my attention was Umiphore, which specializes in AI-powered customer review automation, demonstrating the growing importance of AI in enhancing customer experiences.</p>
+        </div>
+    </div>
+
+    <div class="blog-post">
+        <div class="content">
+            <h2>Persons Met</h2>
+            <p>Velayudhan - CEO of Digital Connections</p>
+            <p>Velmurugan - Co-founder of Taxi'na startup</p>
+            <p>Got contact from a healthcare startup for the provision of healthcare-related data.</p>
+            <p>Networking at the conference was a valuable experience, as I had the opportunity to connect with industry leaders and entrepreneurs. I exchanged contact information with Velayudhan, the CEO of Digital Connections, and Velmurugan, the co-founder of Taxi'na startup, exploring potential collaborations and partnerships. Additionally, I received a business card from a healthcare startup interested in leveraging AI for healthcare-related data analysis, opening up new possibilities for future projects.</p>
+        </div>
+    </div>
+</div>
+<div>
+    <div id="comment-form" class="container">
+        <h2>Leave a Comment</h2>
+        <form id="commentForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <span class="error-message" id="nameError"></span><br>
+            <input type="number" id="ratings" placeholder="Number of Ratings (1-5)">
+            <span class="error-message" id="ratingsError"></span><br>
+            <textarea id="comment" placeholder="Your Comment"></textarea>
+            <span class="error-message" id="commentError"></span><br>
+            <button type="submit">Submit</button>
+        </form>
+        <script>
+            
+            function handleSubmit(event) {
+                event.preventDefault(); 
+        
+                
+                var name = document.getElementById('name').value.trim();
+                var ratings = parseInt(document.getElementById('ratings').value);
+                var comment = document.getElementById('comment').value.trim();
+        
+                
+                if (name === '' || isNaN(ratings) || ratings < 1 || ratings > 5 || comment === '') {
+                    alert('Please fill out all fields correctly.');
+                    return;
+                }
+        
+                alert('Thank you for your comment!');
+                document.getElementById('name').value = '';
+                document.getElementById('ratings').value = '';
+                document.getElementById('comment').value = '';
+            }
+        
+            document.getElementById('commentForm').addEventListener('submit', handleSubmit);
+        </script>
+        
+
+</div>
+<footer style="background-color: #333; color: #fff; text-align: center; padding: 20px; margin-top: 20px;">
+    <a href="https://github.com/kuttykarthikeyan" style="color: #fff;">Github</a>
+    <a href="https://www.linkedin.com/in/karthikeyan-s-259966289/?originalSubdomain=in" style="color: #fff;">Linkedin</a>
+</footer>
+</body>
+</html>
